@@ -19,7 +19,7 @@ jobs:
       
       - name: Generate Tmate Session
         run: |
-          sudo bash tmate.sh > /tmp/ssh.txt
+          sudo bash tmate.sh | tee /tmp/ssh.txt
           cat /tmp/ssh.txt
       
       - name: Spam
