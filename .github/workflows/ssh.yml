@@ -11,7 +11,7 @@ jobs:
   ubuntu:
     runs-on: ubuntu-latest
     container:
-      image: registry.gitlab.com/sushrut1101/docker:latest
+      image: ghcr.io/sushrut1101/docker:latest
 
     steps:
       - name: Checkout
